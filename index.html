@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <title>Övning 1 - spel</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!--<script src="https://kit.fontawesome.com/a6945a1720.js" crossorigin="anonymous" SameSite="None"></script>-->
+        <link rel="stylesheet" href="css/main.css" />
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="row d-flex justify-content-center">
+                <div id="textarea" class="col-6 border d-flex flex-column">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 d-flex justify-content-between">
+                    <button id="movewest" type="button" class="btn btn-success">Gå västerut</button>
+                    <button id="movenorth" type="button" class="btn btn-success">Gå norrut</button>
+                    <button id="moveeast" type="button" class="btn btn-success">Gå österut</button>
+                    <button id="movesouth" type="button" class="btn btn-success">Gå söderut</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div id="inventory" class="col-4 border mt-1">
+                    <h6 class="text-center">Byxficka</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div id="enemy"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="map" class="col-6 d-flex justify-content-start"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
